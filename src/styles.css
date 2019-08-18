@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --height-header: 70px;
+  --height-menu: calc(100vh - var(--height-header) );
+
+  --primary-color: #A0d2eb;
+  --secondary-color: #e5eaf5;
+  --third-color: #d0bdf4;
+  --fourth-color: #8458b3;
+  --fifth-color: #494d5f;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+
+html {
+  font-size: 16px;
+  color: var(--fifth-color);
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--secondary-color);
+
+}

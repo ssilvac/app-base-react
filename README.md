@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# APP BASE REACT
+
+Creado con la librería de facebook 'create-react-app'
+Diseño responsive 'mobile first'
+
+## Availaible libraries
+
+ - axios
+ - react-router-dom
 
 ## Available Scripts
 

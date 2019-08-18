@@ -1,0 +1,15 @@
+footer {
+    align-items: center;
+    background-color: var(--fourth-color);
+    color: var(--secondary-color);
+    display: flex;
+    height: 100px;
+    font-weight: 700;
+    justify-content: center;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo-footer {
+    font-family: 'Lobster', cursive;
+}

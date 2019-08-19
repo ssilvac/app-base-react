@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './header.css';
 
 function Header() {
@@ -21,11 +22,8 @@ function Header() {
                 <div className="logo">TitanLab</div>
 
                 <ul>
-                    <li><a href="#!">Menú 1</a></li>
-                    <li><a href="#!">Menú 2</a></li>
-                    <li><a href="#!">Menú 3</a></li>
-                    <li><a href="#!">Menú 4</a></li>
-                    <li><a href="#!">Menú 5</a></li>
+                    <li><NavLink to="/team" onClick={toogleMenu} activeClassName="menu-active" >Team</NavLink></li>
+                    <li><NavLink to="/services" onClick={toogleMenu} activeClassName="menu-active">Servicios</NavLink></li>
                 </ul>
             </nav>
 

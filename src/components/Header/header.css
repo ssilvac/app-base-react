@@ -50,7 +50,7 @@ nav ul li a {
     justify-content: space-evenly;
     align-items: center;
     box-shadow: 0 4px 10px var(--fifth-color);
-    transform: translateX(100%);
+    transform: translateX(110%);
     transition: all .5s ease-out;
     z-index: 20;
 }
@@ -74,7 +74,7 @@ nav ul li a {
     flex-direction: column;
     height: 80vh;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .nav-activate ul li {
@@ -97,19 +97,12 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     font-weight: 900;
-    color: var(--fifth-color);
-}
-
-.nav-activate ul li a:hover,
-.nav-activate ul li a:active {
-    background-color: var(--fourth-color);
-    color: var(--secondary-color);   
 }
 
 #back-menu{
     display: none;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 100vw;
     height: 100vh;
     top: 0;

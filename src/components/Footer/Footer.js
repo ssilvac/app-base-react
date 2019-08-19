@@ -4,9 +4,7 @@ import './footer.css';
 function Footer(){
 
     return(
-        <footer>
-            Make the web better &nbsp; <span className='logo-footer'>TitanLab &copy;</span> 
-        </footer>
+        <footer>Making the web a better world &nbsp; <a href="https://www.titanlab.cl" target='_blank' rel="noopener noreferrer" className='logo-footer'>TitanLab &copy;</a></footer>
     );
 }
 

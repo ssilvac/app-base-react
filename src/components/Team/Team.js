@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react';
+import './team.scss';
 
 function Team() {
 

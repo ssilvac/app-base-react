@@ -1,8 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './header.css';
+import './header.scss';
 
-function Header() {
+function Header( props ) {
+
+    const { title } = props;
 
     const toogleMenu = () => {
         const menu = document.getElementById('menu');
@@ -13,13 +15,13 @@ function Header() {
 
     return (
         <header>
-            <div className="logo">TitanLab</div>
+            <div className="logo">{title}</div>
 
             <div id="back-menu" onClick={toogleMenu}></div>
 
             <nav id='menu' className="nav-activate">
 
-                <div className="logo">TitanLab</div>
+                <div className="logo">{title}</div>
 
                 <ul>
                     <li><NavLink to="/team" onClick={toogleMenu} activeClassName="menu-active" >Team</NavLink></li>

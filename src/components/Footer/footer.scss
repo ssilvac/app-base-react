@@ -1,9 +1,11 @@
+@import '../../styles.scss';
+
 footer {
     align-items: center;
-    background-color: var(--fourth-color);
-    color: var(--secondary-color);
+    background-color: $fourth-color;
+    color: $secondary-color;
     display: flex;
-    height: var(--height-footer);
+    height: $height-footer;
     font-weight: 700;
     justify-content: center;
     width: 100%;

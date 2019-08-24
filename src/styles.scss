@@ -59,4 +59,5 @@ a:active {
 .container {
   width: 100%;
   min-height: calc(100vh - #{$height-footer});
+  padding-top: calc( #{$height-header} + 2rem );
 }
